@@ -16,8 +16,8 @@ public class KidBicycle extends Bicycle {
         this.wheels = wheels;
     }
 
-    @Override public String toString()
-    {
+    @Override
+    public String toString() {
         return (super.toString() + "\nNumbers of wheel: "
                 + wheels);
     }

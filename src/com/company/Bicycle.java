@@ -4,8 +4,7 @@ public class Bicycle {
     private int gear;
     private int speed;
 
-    public Bicycle(int gear, int speed)
-    {
+    public Bicycle(int gear, int speed) {
         this.gear = gear;
         this.speed = speed;
     }
@@ -26,8 +25,7 @@ public class Bicycle {
         this.speed = speed;
     }
 
-    public String toString()
-    {
+    public String toString() {
         return ("Number of gears: " + gear + "\n"
                 + "Bicycle speed: " + speed);
     }

@@ -1,8 +1,7 @@
 package com.company;
 
 public class Main {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         MountainBicycle mb = new MountainBicycle(3, 100, 40);
         System.out.println("\nMountain bicycle ------>");
